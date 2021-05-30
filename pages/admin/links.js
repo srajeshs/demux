@@ -9,7 +9,7 @@ import CardProfile from "components/Cards/CardProfile.js";
 
 import Admin from "layouts/Admin.js";
 
-export default function Settings() {
+export default function Links() {
   return (
     <>
       <div className="flex flex-wrap">
@@ -24,4 +24,4 @@ export default function Settings() {
   );
 }
 
-Settings.layout = Admin;
+Links.layout = Admin;
